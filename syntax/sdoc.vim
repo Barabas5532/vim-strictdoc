@@ -20,6 +20,8 @@ syn match sdocField /[A-Z_]\+:/
 syn keyword sdocLiteral Inline Table True False
 syn match sdocDeprecated /NAME:/
 
+let b:current_syntax = "sdoc"
+
 hi link sdocElement Function
 hi link sdocField Type
 hi link sdocDeprecated Error
